@@ -1,0 +1,11 @@
+RewriteEngine On
+
+#show index.php when the client request for about.php
+rewriterule ^about.php index.php
+
+#show indesx.php when the client request for home
+rewriterule ^home index.php
+
+#display error page for errors
+ErrorDocument 404 /AdvancedPHP/Day3/view/Pagenotfound.php
+ErrorDocument 500 /AdvancedPHP/Day3/view/Pageallerrors.php

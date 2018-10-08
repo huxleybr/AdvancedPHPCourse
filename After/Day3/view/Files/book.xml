@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="ISO-8859-1"?>
+<book>
+	<author>
+		<firstname>Roy</firstname>
+		<lastname>Tennant</lastname>
+	</author>
+	<title>The Great American Novel</title>
+	<chapter number="1">
+		<chaptitle>It Was Dark and Stormy</chaptitle>
+		<p>It was a dark and stormy night.</p>
+		<p>An owl hooted.</p>
+	</chapter>
+</book>
